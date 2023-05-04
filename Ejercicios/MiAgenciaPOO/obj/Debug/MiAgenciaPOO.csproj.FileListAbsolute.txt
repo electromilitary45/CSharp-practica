@@ -1,0 +1,8 @@
+C:\Users\Derek\Documents\REPOSITORIOS\CSharp-practica\Ejercicios\MiAgenciaPOO\bin\Debug\MiAgenciaPOO.exe.config
+C:\Users\Derek\Documents\REPOSITORIOS\CSharp-practica\Ejercicios\MiAgenciaPOO\bin\Debug\MiAgenciaPOO.exe
+C:\Users\Derek\Documents\REPOSITORIOS\CSharp-practica\Ejercicios\MiAgenciaPOO\bin\Debug\MiAgenciaPOO.pdb
+C:\Users\Derek\Documents\REPOSITORIOS\CSharp-practica\Ejercicios\MiAgenciaPOO\obj\Debug\MiAgenciaPOO.csproj.AssemblyReference.cache
+C:\Users\Derek\Documents\REPOSITORIOS\CSharp-practica\Ejercicios\MiAgenciaPOO\obj\Debug\MiAgenciaPOO.csproj.SuggestedBindingRedirects.cache
+C:\Users\Derek\Documents\REPOSITORIOS\CSharp-practica\Ejercicios\MiAgenciaPOO\obj\Debug\MiAgenciaPOO.csproj.CoreCompileInputs.cache
+C:\Users\Derek\Documents\REPOSITORIOS\CSharp-practica\Ejercicios\MiAgenciaPOO\obj\Debug\MiAgenciaPOO.exe
+C:\Users\Derek\Documents\REPOSITORIOS\CSharp-practica\Ejercicios\MiAgenciaPOO\obj\Debug\MiAgenciaPOO.pdb

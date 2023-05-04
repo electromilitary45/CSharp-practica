@@ -203,30 +203,40 @@ namespace Ejercicios
 
             #endregion
 
-            #region Ciclo Do While
+            #region Ciclo Do While con Try catch
             
-            Console.WriteLine("Digite los numeros para sumar y digite 0 para finalizar");
-            int suma= 0;
-            int numero;
+            //Console.WriteLine("Digite los numeros para sumar y digite 0 para finalizar");
+            //int suma= 0;
+            //int numero;
 
-            do { 
+            //do { 
 
-                try
-                {
-                    numero=int.Parse(Console.ReadLine());
-                    suma += numero;
-                }
-                catch (FormatException e)
-                {
-                    Console.WriteLine("Error al digitar el numero" + e);
-                    numero = 0;
-                }
-            }while (numero != 0);
+            //    try
+            //    {
+            //        numero=int.Parse(Console.ReadLine());
+            //        suma += numero;
+            //    }
+            //    catch (FormatException e)
+            //    {
+            //        if (e.Message == null)
+            //        {
+            //            throw;
+            //        }
+            //        else 
+            //        { 
+            //            Console.WriteLine("Error al digitar el numero" + e);
+            //        }
+                    
+            //        numero = 0;
+            //    }
+            //}while (numero != 0);
 
-            Console.WriteLine("La suma es {0}",suma);
+            //Console.WriteLine("La suma es {0}",suma);
 
-            Console.ReadKey();
+            //Console.ReadKey();
             #endregion
+
+            //-----------------------------POO------------------------------
 
         }
     }
