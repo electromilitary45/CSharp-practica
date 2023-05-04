@@ -9,9 +9,7 @@ namespace Practica
 {
     public class funciones
     {
-        #region instancias
-        //instancia de la clase persona
-        
+        #region INSTACIAS
         //lista de objetos persona
         public static List<persona> lista = new List<persona>();
         
