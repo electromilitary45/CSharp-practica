@@ -109,13 +109,124 @@ namespace Ejercicios
             //estructura de datos que permite almacenar varios valores de diferentes tipos ligera
             // es similar a JSON 
 
-            var persona = (Nombre: "Derek", Apellido: "Leiva", Edad: 25);
-            Console.WriteLine(persona.Nombre+" "+persona.Apellido);
-            persona.Apellido = "Villalobos";
-            Console.WriteLine(persona.Nombre + " " + persona.Apellido);
-            Console.ReadKey();
+            //var persona = (Nombre: "Derek", Apellido: "Leiva", Edad: 25);
+            //Console.WriteLine(persona.Nombre+" "+persona.Apellido);
+            //persona.Apellido = "Villalobos";
+            //Console.WriteLine(persona.Nombre + " " + persona.Apellido);
+            //Console.ReadKey();
             #endregion
 
+            #region Operadores Aritmeticos
+            //const int n = 10;
+
+            //Console.WriteLine("Ingrese un numero: ");
+            //int numero= int.Parse(Console.ReadLine());
+
+            //int suma = numero + n;
+            //int resta = numero - n;
+            //int multiplicacion = numero * n;
+            //int division = numero / n;
+
+            //Console.WriteLine("El resultado de la suma es: " + suma);
+            //Console.WriteLine("El resultado de la resta es: " + resta);
+            //Console.WriteLine("El resultado de la multiplicacion es: " + multiplicacion);
+            //Console.WriteLine("El resultado de la division es: " + division);
+
+
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Switch
+
+
+            //Console.WriteLine("Ingrese un numero X: ");
+            //int numerox = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ingrese un numero Y: ");
+            //int numeroy = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Digite 1.Sumar ,2.Restar, 3.Div, 4.multi");
+            //int opcion = int.Parse(Console.ReadLine());
+
+            //int total = 0;
+
+            //switch (opcion) { 
+            //    case 1:
+            //        total=numerox+ numeroy;
+            //        Console.WriteLine("{0} + {1} = {2}",numerox,numeroy,total);
+            //        break;
+            //    case 2:
+            //        total = numerox - numeroy;
+            //        Console.WriteLine("{0} - {1} = {2}", numerox, numeroy, total);
+            //        break;
+            //    case 3:
+            //        total = numerox / numeroy;
+            //        Console.WriteLine("{0} / {1} = {2}", numerox, numeroy, total);
+            //        break;
+            //    case 4:
+            //        total = numerox * numeroy;
+            //        Console.WriteLine("{0} * {1} = {2}", numerox, numeroy, total);
+            //        break;
+            //    default:
+            //        Console.WriteLine("Opcion no valida");
+            //        break;
+            //}
+            //Console.ReadKey();
+            #endregion
+
+            #region Clico for
+
+            //Console.WriteLine("Digite un numero para crear su tabla de multiplicar");
+            //int numero = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < 11; i++)
+            //{
+            //    int multiplicacion = numero * i;
+            //    Console.WriteLine("{0} * {1} = {2}",numero,i,multiplicacion);
+            //}
+
+
+            //Console.ReadKey();
+            #endregion
+
+            #region Ciclo While
+            
+            //Console.WriteLine("Digite un numero del 1 al 10 que de sea encontrar");
+            //int numero = int.Parse(Console.ReadLine());
+            //int i = 1;
+            //while (numero != i) {
+            //    Console.WriteLine("No hencontrado");
+            //    i++;
+            //}
+            //Console.WriteLine("Encontrado");
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Ciclo Do While
+            
+            Console.WriteLine("Digite los numeros para sumar y digite 0 para finalizar");
+            int suma= 0;
+            int numero;
+
+            do { 
+
+                try
+                {
+                    numero=int.Parse(Console.ReadLine());
+                    suma += numero;
+                }
+                catch (FormatException e)
+                {
+                    Console.WriteLine("Error al digitar el numero" + e);
+                    numero = 0;
+                }
+            }while (numero != 0);
+
+            Console.WriteLine("La suma es {0}",suma);
+
+            Console.ReadKey();
+            #endregion
 
         }
     }
