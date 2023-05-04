@@ -190,7 +190,7 @@ namespace Ejercicios
             #endregion
 
             #region Ciclo While
-            
+
             //Console.WriteLine("Digite un numero del 1 al 10 que de sea encontrar");
             //int numero = int.Parse(Console.ReadLine());
             //int i = 1;
@@ -204,7 +204,7 @@ namespace Ejercicios
             #endregion
 
             #region Ciclo Do While con Try catch
-            
+
             //Console.WriteLine("Digite los numeros para sumar y digite 0 para finalizar");
             //int suma= 0;
             //int numero;
@@ -226,7 +226,7 @@ namespace Ejercicios
             //        { 
             //            Console.WriteLine("Error al digitar el numero" + e);
             //        }
-                    
+
             //        numero = 0;
             //    }
             //}while (numero != 0);
@@ -236,7 +236,9 @@ namespace Ejercicios
             //Console.ReadKey();
             #endregion
 
-            //-----------------------------POO------------------------------
+            #region tipos genericos
+            var lista = new List<string>();
+            #endregion
 
         }
     }
